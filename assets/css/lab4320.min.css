@@ -570,6 +570,10 @@ h2 {
   text-align: center;
 }
 
+.btn_block {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   .btn {
     max-width: 100%;
@@ -861,6 +865,17 @@ h4 {
   text-transform: uppercase;
   display: block;
   margin-top: 1em;
+  max-width: 100%;
+}
+
+.contact-form__select {
+  background: none;
+  cursor: pointer;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
 }
 
 

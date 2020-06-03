@@ -1,0 +1,8 @@
+.referral-notice {
+    background: var(--alt);
+    padding: 0.6rem;
+    color: white;
+    border: 1px solid var(--alt);
+    font-weight: bold;
+    margin-top: 1.2em;
+}

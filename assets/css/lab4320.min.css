@@ -1582,6 +1582,7 @@ p {
 
 .footer {
   padding-top: 5rem;
+  padding-bottom: 8rem;
   color: var(--gray);
 }
 .footer__top {
@@ -1680,7 +1681,6 @@ p {
   justify-content: space-between;
   font-size: 14px;
   padding-top: 1.3rem;
-  padding-bottom: 8rem;
 }
 
 @media (max-width: 1034px) {
@@ -1944,6 +1944,13 @@ margin-bottom: 1rem;
   margin-top: 3.5rem;
 }
 
+@media (max-width: 1034px) {
+  .footer__contacts,
+  .footer__links {
+    width: 40%;
+  }
+}
+
 @media (max-width: 992px) {
   .contact-form__input,
   .contact-form__textarea,
@@ -1969,5 +1976,14 @@ margin-bottom: 1rem;
 
   .current-entries {
     grid-template-columns: repeat(2, 2fr);
+  }
+
+  .footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .footer__top {
+    padding-bottom: 2rem;
   }
 }

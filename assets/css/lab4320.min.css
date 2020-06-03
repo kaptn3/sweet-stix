@@ -671,13 +671,6 @@ h4 {
   max-width: 868px;
   font-weight: normal;
 }
-@media (max-width: 600px) {
-  h4 {
-    color: var(--darkgray);
-    font-size: 2.2em;
-  }
-}
-
 
 .footer-links {
   list-style: none;
@@ -709,8 +702,7 @@ h4 {
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding-top: 7.1rem;
-  padding-bottom: 9rem;
+  padding: 7.1rem 2rem 9rem 2rem;
 }
 .banner__title {
   font-size: 3.9rem;
@@ -778,13 +770,6 @@ h4 {
     margin-top: 2em;
   }
   
-}
-
-@media (max-width: 600px) {
-  .contact-form__group {
-    font-size: 1.5em;
-    padding: 1em 0;
-  }
 }
 
 .contact-form__group label:first-child {
@@ -1303,14 +1288,6 @@ p {
 .current-entries-thumb img:hover {
   transform: scale(1.1);
 }
-
-
-
-
-
-
-
-
 
 .winners {
   display: grid;
@@ -1965,4 +1942,32 @@ margin-bottom: 1rem;
 
 .entry-images {
   margin-top: 3.5rem;
+}
+
+@media (max-width: 992px) {
+  .contact-form__input,
+  .contact-form__textarea,
+  .btn {
+    font-size: 1rem;
+  }
+
+  .about-top {
+    padding: 0;
+  }
+
+  .contact-form__group {
+    display: block;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  .banner__title {
+    font-size: 3rem;
+  }
+
+  .current-entries {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }

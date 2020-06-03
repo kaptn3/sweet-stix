@@ -878,6 +878,21 @@ h4 {
   outline: none;
 }
 
+.contact-form__label-select {
+  position: relative;
+}
+
+.contact-form__label-select::after {
+  content: '▼';
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gray);
+  font-size: 8px;
+}
+
 
 @media (max-width: 600px) {
 

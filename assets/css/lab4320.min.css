@@ -582,6 +582,7 @@ h2 {
 }
 
 .btn:hover, .btn:focus {
+  background-color: transparent;
   color: #fff;
 }
 
@@ -625,6 +626,11 @@ h2 {
 .current-menu-item .menu__item {
   border-bottom-color: #fff;
 }
+
+.menu__item {
+  transition: .2s background-color, .2s color;
+}
+
 .menu__item_btn .menu__item:hover, .menu__item_btn .menu__item:focus {
   background-color: #fff;
   color: var(--base);
@@ -1274,15 +1280,24 @@ p {
 
 .current-entries {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .current-entries-thumb {
   overflow: hidden;
 }
 
+.current-entries-thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
 .current-entries-thumb img {
   transition: transform .5s; /* Animation */
+  width: 100%;
+  height: 100%;
 }
 
 .current-entries-thumb img:hover {

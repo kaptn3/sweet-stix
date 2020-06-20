@@ -172,12 +172,18 @@
     font-size: 1rem;
   }
 
-  .about-top {
-    padding: 0;
-  }
-
   .contact-form__group {
     display: block;
+  }
+
+  .contact-form__group .left-div {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .contact-form__group .right-div {
+    width: 100%;
   }
 
   h2 {

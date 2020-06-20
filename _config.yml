@@ -1,0 +1,10 @@
+title: Data & Analytics
+baseurl: ""
+url: ""
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package-lock.json
+  - _config.yml
+  - .gitignore

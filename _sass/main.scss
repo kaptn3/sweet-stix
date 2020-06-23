@@ -1,0 +1,28 @@
+body {
+  min-width: 375px;
+}
+
+@import "vendor/reset",
+"vendor/referral",
+"vendor/slicknav.min",
+"vendor/emojione.min";
+
+@import
+"modules/typo",
+"modules/container",
+"modules/header",
+"modules/menu",
+"modules/footer",
+"modules/home/hero",
+"modules/contact-form",
+"modules/home/home-entry",
+"modules/search-form",
+"modules/home/current-entries",
+"modules/home/what-can",
+"modules/home/banner";
+//"modules/lab4320.min",
+//"modules/lab4320-mobile.min";
+
+@import "pages/home";
+
+@import "modules/mobile";

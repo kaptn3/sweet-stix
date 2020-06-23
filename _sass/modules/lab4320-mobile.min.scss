@@ -11,10 +11,6 @@
 /* end 1700 */
 /* start 1440 */
 @media (max-width: 1440px) {
-  .container {
-    max-width: 1200px;
-  }
-
   .why-choose__item {
     height: 18rem;
   }
@@ -58,33 +54,8 @@
 }
 /* end 1064 */
 /* start 1034 */
-@media (max-width: 1034px) {
-  .footer-links__item {
-    margin-right: 4rem;
-  }
 
-  .footer-links {
-    display: inline;
-  }
 
-  .footer__top {
-    flex-wrap: wrap;
-  }
-
-  .footer__socials {
-    width: 100%;
-  }
-
-  .footer__links {
-    margin-right: 6rem;
-    margin-bottom: 1rem;
-  }
-
-  .footer__contacts,
-  .footer__links {
-    width: 40%;
-  }
-}
 /* end 1034 */
 
 /* start 1000 */
@@ -131,9 +102,7 @@
     margin-right: auto;
   }
 
-  .menu {
-    display: none;
-  }
+
 
   .navbar-header {
     width: 100%;
@@ -145,21 +114,7 @@
     top: 0;
   }
 
-  #mobile-menu {
-    display: none;
-  }
 
-  .slicknav_menu {
-    display: block;
-  }
-
-  .slicknav_nav a:hover,
-  .slicknav_nav a:focus,
-  .slicknav_nav .active {
-    color: #0087af;
-    outline: none;
-    background: #f8f9fa;
-  }
 
   .slick-next,
   .slick-prev {
@@ -190,22 +145,13 @@
     font-size: 2.2rem;
   }
 
-  .banner__title {
-    font-size: 3rem;
-  }
+
 
   .current-entries {
     grid-template-columns: repeat(2, 2fr);
   }
 
-  .footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
 
-  .footer__top {
-    padding-bottom: 2rem;
-  }
 }
 /* end 991 */
 
@@ -222,20 +168,7 @@
 /* end 980 */
 
 /* start 900 */
-@media (max-width: 900px) {
-  .header_home {
-    background-size: inherit;
-  }
 
-  .header__title {
-    font-size: 3rem;
-    width: 65%;
-  }
-
-  .header__title_home {
-    padding-top: 5.5rem;
-  }
-}
 /* end 900 */
 
 /* start 800 */
@@ -459,24 +392,6 @@
 
 /* start 320 */
 @media (max-width: 320px) {
-  .footer__bottom {
-    display: block;
-    padding-bottom: 2rem;
-  }
-
-  .footer__bottom div {
-    margin-top: 0.8rem;
-  }
-
-  .footer__title {
-    font-size: 1.2em;
-  }
-
-  .footer__contact,
-  .footer-links,
-  .footer__title {
-    text-align: left;
-  }
 
   .clients-say__btn_right,
   .clients-say__btn_left {
@@ -497,13 +412,9 @@
     font-style: normal;
   }
 
-  .banner__title {
-    font-size: 2.2rem;
-  }
 
-  .banner__text {
-    font-size: 1.2rem;
-  }
+
+
 
   .can-do__img {
     max-width: 100%;
@@ -538,7 +449,7 @@
   .features__item {
     margin-bottom: 4rem;
   }
-  
+
   .contact-form__input,
   .contact-form__textarea {
     font-size: 14px;

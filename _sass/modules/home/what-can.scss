@@ -1,0 +1,42 @@
+.what-can {
+  margin-bottom: 5rem;
+}
+
+.what-can__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.what-can__item {
+  background-color: #fff;
+  border: 2px solid var(--light);
+  height: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 2rem;
+  padding-top: 1rem;
+}
+
+.what-can__item p {
+  font-size: 14px;
+  margin: 0px;
+  color: inherit;
+  line-height: unset;
+}
+
+.what-can__img {
+  margin-bottom: 1rem;
+}
+
+.what-can__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}

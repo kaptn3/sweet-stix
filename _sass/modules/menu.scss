@@ -1,0 +1,90 @@
+.menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  color: #fff;
+}
+
+.menu__item {
+  display: block;
+  text-transform: uppercase;
+  padding: 5px 0;
+  margin: 0 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.current-menu-item .menu__item {
+  border-bottom-color: #fff;
+}
+
+.menu__item {
+  transition: .2s background-color, .2s color;
+}
+
+.menu__item_btn .menu__item:hover,
+.menu__item_btn .menu__item:focus {
+  background-color: #fff;
+  color: var(--base);
+}
+
+
+.menu__item_btn .menu__item {
+  margin: 0;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 2px 20px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+.slicknav_btn {
+  color: white;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  background: white;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+  display: block;
+  width: 1.125em;
+  height: .125em;
+  margin: 0 auto;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.slicknav_nav a:hover,
+  .slicknav_nav a:focus,
+  .slicknav_nav .active {
+    color: #0087af;
+    outline: none;
+    background: #f8f9fa;
+  }
+
+.slicknav_nav {
+  z-index: 100;
+  display: block;
+  position: absolute;
+  top: 115px;
+  right: 0px;
+  width: 100%;
+  border: 1px solid grey;
+  color: #3e3d3d;
+  padding-left: 10px;
+}

@@ -1,0 +1,20 @@
+.banner {
+  background: url(../../../assets/images/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 7.1rem 2rem 9rem 2rem;
+}
+
+.banner__title {
+  font-size: 3.9rem;
+  font-weight: 400;
+}
+
+.banner__text {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  color: white;
+  line-height: unset;
+}

@@ -31,7 +31,6 @@ layout: default
 
   <div class="container what-can">
     <div class="what-can__box">
-
       <div class="what-can__item">
         <img class="what-can__img" src="assets/images/icons/trophy.png" alt="">
         <h3 class="what-can__title">Winner's prizes</h3>
@@ -49,106 +48,13 @@ layout: default
         <h3 class="what-can__title">Random prizes</h3>
         <p>Randomly drawn voters get spot prizes during the competition</p>
       </div>
-
     </div>
   </div>
-
-
 </main>
 
-
-<div class="banner">
-  <strong class="banner__title">Enter your cutie now</strong>
-  <p class="banner__text">to win your share of R12&nbsp;000</p>
-  <button onclick="location.href='/#entry-form';" class="btn">Enter Now</button>
-</div>
-
-<footer class="footer">
-  <div class="container">
-
-    <a class="footer__logo" href="/"><img src="assets/images/logo/footer-logo.png" alt="SweetStix"></a>
-
-    <div class="footer__top">
-
-      <div class="footer__contacts">
-        <!--p class="footer__contact">
-                <img class="footer__contact-icon" src="/address.png" alt=""/><span> Address</span>
-            </p>
-            <p class="footer__contact">
-                <img class="footer__contact-icon" src="/phone.png" alt=""/><span>011 123 4567</span>
-            </p-->
-        <p class="footer__contact">
-          <img class="footer__contact-icon" src="assets/images/icons/email.png" alt=""/><span><a
-                href="mailto:info@sweetstix.co.za">info@sweetstix.co.za</a></span>
-        </p>
-        <p class="footer__contacts">
-          <img class="footer__contact-icon" src="assets/images/icons/support.png" alt=""/><span><a
-                href="/contact/">Support</a></span>
-        </p>
-
-      </div>
-
-      <div class="footer__links">
-        <h5 class="footer__title">Links</h5>
-
-        <div class="menu-footer-container">
-          <ul id="menu-footer" class="footer__links-list footer-links">
-            <li><a href="/" aria-current="page" class="nav-link">Home</a></li>
-            <li><a href="/contact/" class="nav-link">Contact</a></li>
-            <li><a href="/power-ups/" class="nav-link">Power Ups</a></li>
-            <li><a href="/login/" class="nav-link">Account</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer__socials">
-        <h5 class="footer__title">Follow us</h5>
-        <a class="footer__social" href="https://facebook.com/sweetstixza" target="_new"><img
-                src="assets/images/icons/facebook.png" alt="facebook"></a>
-        <a class="footer__social" href="https://www.instagram.com/cutestixza" target="_new"><img
-                src="assets/images/icons/instagram.png" alt="instagram"></a>
-        <a class="footer__social" href="https://twitter.com/cutestix" target="_new"><img
-                src="assets/images/icons/twitter.png" alt="twitter"></a>
-      </div>
-    </div>
-
-    <div class="footer__bottom">
-
-      <span>&copy; SweetStix</span>
-      <div>
-        <a href="/privacy-policy/">Privacy Policy</a> |
-        <a href="/terms-and-conditions/">Terms and Conditions</a>
-      </div>
-    </div>
-  </div>
-
-
-</footer>
-
-
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-    (function () {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/5eafb86681d25c0e58488541/default';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
-</script>
-<!--End of Tawk.to Script-->
-
-
 <script type='text/javascript' src='assets/js/jquery.nav.js?ver=1.6.4'></script>
-
 <script type='text/javascript' src='assets/js/jquery.slicknav.js?ver=1.6.4'></script>
-
 <script type='text/javascript' src='assets/js/main.min.js?ver=1.6.4'></script>
-
 <script type='text/javascript' src='assets/js/owl.carousel.min.js?ver=1.6.4'></script>
 
 <script>
@@ -178,14 +84,9 @@ layout: default
 
 <script language="javascript">
     jQuery(document).ready(function () {
-
         emailVerify = "";
-
         jQuery("#email").change(function () {
-
             jQuery("#email-error").html("");
-
-
             // basic email validation...
             if (jQuery("#email").val().indexOf("@") < 1) {
                 alert("ERROR! " + jQuery("#email").val() + " is not a valid email");
@@ -193,9 +94,7 @@ layout: default
                 jQuery("#email").css('border', '1px solid red');
                 return;
             }
-
             emailVerify = jQuery("#email").val();
-
             jQuery.get("/ajax/email_verify.php?email=" + jQuery("#email").val(), function (
                 data, status) {
                 if (data == "false") {
@@ -207,31 +106,22 @@ layout: default
                     return;
                 }
             });
-
-
         });
 
         jQuery(".wpcf7-form-control").on("keyup", function (e) {
-
             if (this.id == "parent-name" || this.id == "parent-surname" || this.id ==
                 "entry-name" || this.id == "entry-surname" || this.id == "email" || this
                     .id == "phone" || this.id == "description") {
                 jQuery("#" + this.id).css('border', '1px solid var(--gray)');
             }
-
         });
 
 
         $('img').each(function () {
-
             if (typeof $(this).attr("data-src") != "undefined") {
-
                 $(this).attr("src", $(this).attr("data-src"));
-
             }
-
         });
-
     });
 </script>
 

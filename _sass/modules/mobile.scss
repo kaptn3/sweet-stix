@@ -76,6 +76,10 @@
     font-size: 3rem;
   }
 
+  .current-entries-main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -128,6 +132,30 @@
 
   .what-can__item {
     margin-bottom: 1.5rem;
+  }
+
+  .search-form {
+    &__group {
+      display: block;
+    }
+
+    &__left-div {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 1.5rem;
+
+      &::after {
+        right: 1.5rem;
+      }
+    }
+
+    &__right-div {
+      width: 100%;
+    }
+  }
+
+  .current-entries-main {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 /* end 768 */

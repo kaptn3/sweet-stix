@@ -1,3 +1,33 @@
+.search-form {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+
+  &__group {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__left-div {
+    width: 30%;
+    padding-right: 2rem;
+    position: relative;
+
+    &::after {
+      content: '▼';
+      position: absolute;
+      top: 50%;
+      right: 3rem;
+      transform: translateY(-50%);
+      color: var(--gray);
+      font-size: 10px;
+    }
+  }
+
+  &__right-div {
+    width: 70%
+  }
+}
+
 .search-form__select {
   padding: 13px;
   font-size: 1.1rem;

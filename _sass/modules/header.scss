@@ -41,3 +41,11 @@
 .header_testimonials {
   background-image: url(../images/header/testimonials.png);
 }
+
+.header__banner {
+  text-align: center;
+  margin-top: 2rem;
+  img {
+    border: 1px solid lightgrey;
+  }
+}

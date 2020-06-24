@@ -1,0 +1,37 @@
+.current-entries-main {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4rem;
+
+  &__votes {
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    /* margin: .5rem 1rem; */
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--base);
+    z-index: 1;
+    padding: 0.6rem;
+  }
+
+  &__thumb {
+    border: 1px solid #34add1;
+    position: relative;
+
+    & img:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__a {
+    margin: auto;
+    width: 94%;
+  }
+
+  &__action-vote {
+    padding: 1rem 0;
+    background-color: #f9f8f8;
+    text-align: center;
+  }
+}

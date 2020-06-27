@@ -1,48 +1,26 @@
 ---
-layout: default
+layout: page
 ---
+<h2>Current Entries</h2>
+<div class="container">
+  {% include search-form.html %}
+  <div class="current-entries current-entries-main">
+    {% for n in (1..8) %}
+    <div class="current-entries-thumb current-entries-main__thumb">
+      <div class="current-entries-main__votes">147th</div>
+      <a class="current-entries-main__a" href="/entry/20062c6f" title="Zibusiso">
+        <img src="assets/images/blurry-thumb-450.jpg"
+             data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-06/nompumelelo-2/thumb/450_9344-nompumelelo-2.jpg"
+             alt="Zibusiso">
+      </a>
 
-<main class="main main__page">
-  {% include header-banner.html %}
-  <h2>Current Entries</h2>
-  <div class="container">
-    {% include search-form.html %}
-    <div class="current-entries current-entries-main">
-      {% for n in (1..8) %}
-      <div class="current-entries-thumb current-entries-main__thumb">
-        <div class="current-entries-main__votes">147th</div>
-        <a class="current-entries-main__a" href="/entry/20062c6f" title="Zibusiso">
-          <img src="assets/images/blurry-thumb-450.jpg" data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-06/nompumelelo-2/thumb/450_9344-nompumelelo-2.jpg" alt="Zibusiso">
-        </a>
-
-        <div class="current-entries-main__action-vote">
-          <a href="/entry/20062c6f" title="Zibusiso" class="btn entry-paypal">Vote for
-            Zibusiso</a>
-        </div>
+      <div class="current-entries-main__action-vote">
+        <a href="/entry/20062c6f" title="Zibusiso" class="btn entry-paypal">Vote for
+          Zibusiso</a>
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
-</main>
+</div>
 
-<script defer type='text/javascript' src='assets/js/jquery.nav.js?ver=1.6.4'></script>
-<script defer type='text/javascript' src='assets/js/jquery.slicknav.js?ver=1.6.4'></script>
-<script defer type='text/javascript' src='assets/js/main.min.js?ver=1.6.4'></script>
-
-<script defer language="javascript">
-    jQuery("#order-top").change(function () {
-        if (jQuery("#order-top option:selected").val() == "top") {
-            jQuery("#entry-search").val("order-top");
-        }
-        jQuery("#search-form").submit();
-    });
-
-    jQuery(document).ready(function () {
-        $('img').each(function () {
-            if (typeof $(this).attr("data-src") != "undefined") {
-                $(this).attr("src", $(this).attr("data-src"));
-            }
-        });
-    });
-</script>
 

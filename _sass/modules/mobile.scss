@@ -31,6 +31,11 @@
 /* end 1176 */
 /* start 1034 */
 @media (max-width: 1034px) {
+  .winners__row {
+    grid-gap: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
   .footer-links__item {
     margin-right: 4rem;
   }
@@ -78,6 +83,10 @@
 
   .current-entries-main {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .winners__winner {
+    font-size: .9rem;
   }
 
   .footer {
@@ -163,6 +172,11 @@
   }
 }
 /* end 768 */
+@media (max-width: 640px) {
+  .winners__row {
+    grid-template-columns: 1fr;
+  }
+}
 /* start 575 */
 @media (max-width: 575px) {
   .header__site-name {

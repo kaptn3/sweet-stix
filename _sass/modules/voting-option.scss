@@ -1,0 +1,150 @@
+.voting-options {
+  list-style: none;
+  perspective: 900;
+  padding-left: 1em;
+  margin: 0;
+}
+
+.voting-options li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px dotted lightgrey;
+  padding-top: 18px;
+}
+
+.voting-options li:nth-of-type(1) {
+  animation-delay: 0.5s;
+}
+
+.voting-options li:nth-of-type(2) {
+  animation-delay: 0.75s;
+}
+
+u.voting-optionsl li:nth-of-type(3) {
+  animation-delay: 1s;
+}
+
+.voting-options li:last-of-type {
+  padding-bottom: 0;
+}
+
+.voting-options li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 10px;
+  right: 5%;
+}
+
+.voting-options li i:before,
+.voting-options li i:after {
+  content: "";
+  position: absolute;
+  background-color: var(--alt);
+  width: 3px;
+  height: 9px;
+}
+
+.voting-options li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+.voting-options li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+.voting-options li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 2rem;
+  z-index: 1;
+  opacity: 0;
+}
+
+.voting-options li input[type=checkbox]:checked~.pmp {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+
+.voting-options li input[type=checkbox]:checked~i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+.voting-options li input[type=checkbox]:checked~i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+.vote-cell {
+  display: table-cell;
+  color: var(--gray);
+  line-height: 2.15;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.silent-vote-cost {
+  display: none;
+  font-size: 12px;
+}
+
+.entry-container {
+  margin-top: 5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 24px;
+}
+
+.entry-description {
+  padding-right: 1rem;
+}
+
+.entry-photo {
+  position: relative;
+}
+
+.entry-id {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  color: white;
+  margin: 0.5rem 1rem;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: var(--base);
+  padding: 0.5em;
+  z-index: 1;
+}
+
+.sharing-icon img {
+  width: 35px;
+}
+
+.sharing-icon-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sharing-copy {
+  padding: auto;
+  text-align: center;
+  margin-top: 1px;
+  color: var(--alt);
+  font-size: 1.3em;
+}
+
+.sharing-icon {
+  text-align: center;
+}
+
+.other-current-entries {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 2rem;
+}

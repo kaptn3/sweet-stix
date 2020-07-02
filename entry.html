@@ -1,6 +1,7 @@
 ---
 layout: page
 voting: true
+img: true
 ---
 <h5 id="ps-timeline-h5">Competition Timeline</h5>
 
@@ -351,69 +352,17 @@ voting: true
   <h2>Other entries</h2>
 
   <div class="other-current-entries">
-    <div class="current-entries-thumb"><a href="/entry/20072d25" title="Mynah"><img
+    {% for l in (1..16) %}
+    <div class="current-entries-thumb">
+      <a href="/entry/20072d25" title="Mynah">
+        <img
             src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/mynah/thumb/150_11557-mynah.jpg"
-            alt="Mynah"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073ce5" title="Alisha"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/alisha-2/thumb/150_15589-alisha-2.jpg"
-            alt="Alisha"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/200739fc" title="Hlelolenkosi"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/hlelolenkosi-8/thumb/150_14844-hlelolenkosi-8.jpg"
-            alt="Hlelolenkosi"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20072e83" title="Avethandwa"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/avethandwa-6/thumb/150_11907-avethandwa-6.jpg"
-            alt="Avethandwa"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073c74" title="Olwendalo"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/olwendalo/thumb/150_15476-olwendalo.jpg"
-            alt="Olwendalo"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073735" title="Hudaa"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/hudaa/thumb/150_14133-hudaa.jpg"
-            alt="Hudaa"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073a3a" title="Otshepegile"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/otshepegile-1/thumb/150_14906-otshepegile-1.jpg"
-            alt="Otshepegile"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073926" title="Jayden"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/jayden-24/thumb/150_14630-jayden-24.jpg"
-            alt="Jayden"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/2007310b" title="Princeton"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/princeton/thumb/150_12555-princeton.jpg"
-            alt="Princeton"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20072e94" title="Skylar"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/skylar-11/thumb/150_11924-skylar-11.jpg"
-            alt="Skylar"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20072fd1" title="Enzokuhle"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/enzokuhle-60/thumb/150_12241-enzokuhle-60.jpg"
-            alt="Enzokuhle"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073aef" title="Sinomuzi"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/sinomuzi/thumb/150_15087-sinomuzi.jpg"
-            alt="Sinomuzi"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/200733b0" title="Kelsey"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/kelsey-1/thumb/150_13232-kelsey-1.jpg"
-            alt="Kelsey"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20072d97" title="Enzokuhle"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/enzokuhle-56/thumb/150_11671-enzokuhle-56.jpg"
-            alt="Enzokuhle"></a></div>
-    <div class="current-entries-thumb"><a href="/entry/20073be4" title="Atarah"><img
-            src="/assets/images/blurry-thumb-150.jpg"
-            data-src="https://sweetstix.s3.af-south-1.amazonaws.com/entries/2020-07/atarah-4/thumb/150_15332-atarah-4.jpg"
-            alt="Atarah"></a></div>
-
+            data-src="/assets/images/entries/150_10455-theresho.jpg"
+            alt="Mynah">
+      </a>
+    </div>
+    {% endfor %}
   </div>
-
 </div>
 
 

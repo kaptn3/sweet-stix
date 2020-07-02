@@ -1,0 +1,57 @@
+.can-do {
+  padding-top: 5rem;
+}
+
+.can-do__top {
+  margin-bottom: 8rem;
+}
+
+.can-do__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 8.5rem;
+}
+
+.can-do__item_reverse {
+  flex-direction: row-reverse;
+}
+
+.can-do__title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+
+.can-do__title::after {
+  content: "";
+  width: 6rem;
+  height: 2px;
+  margin-top: 1rem;
+  background-color: var(--base);
+  display: block;
+}
+
+.can-do__text {
+  margin-top: 2rem;
+}
+
+.can-do__text p {
+  line-height: 2.2;
+  margin-bottom: 2rem;
+  color: unset;
+  text-align: unset;
+  margin-top: 0;
+
+}
+
+.can-do__img {
+  flex-shrink: 0;
+  max-width: 53%;
+  padding-left: 38px;
+}
+
+.can-do__img_left {
+  padding-left: 0;
+  padding-right: 38px;
+}

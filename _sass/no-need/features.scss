@@ -1,0 +1,17 @@
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 982px;
+  margin: 6.5rem auto;
+  grid-row-gap: 5.5rem;
+}
+
+.features__item {
+  text-align: center;
+}
+
+.features__title {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}

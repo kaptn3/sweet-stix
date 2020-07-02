@@ -1,0 +1,38 @@
+.difference {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--base);
+  margin-top: 9.5rem;
+  color: #fff;
+}
+
+.difference__img {
+  flex-shrink: 0;
+  margin-right: 3.5rem;
+  max-width: 50%;
+  object-fit: cover;
+  min-height: 580px;
+}
+
+.difference__text {
+  margin: 5.4rem 0;
+  max-width: 34rem;
+  line-height: 2.15;
+}
+
+.difference__text h2 {
+  font-weight: 400;
+  font-size: 2.9rem;
+  color: white;
+}
+
+.difference__text h2::after {
+  content: unset;
+}
+
+.difference__text p {
+  margin-bottom: 1em;
+  color: white;
+  text-align: unset;
+  margin-top: unset;
+}

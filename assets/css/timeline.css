@@ -10,7 +10,7 @@
 }
 
 .ps-timeline-sec .container ol:before {
-  
+
   background: var(--alt);
   content: "";
   width: 10px;
@@ -165,7 +165,7 @@
   }
 
   .ps-timeline-sec {
-    margin-left: 15%;
+    margin-bottom: 4rem;
   }
 
   .ps-timeline-sec .container ol:before {

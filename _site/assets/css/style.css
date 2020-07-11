@@ -219,6 +219,8 @@ h4 { color: var(--gray); text-align: center; font-size: 1.3em; margin: 20px auto
 
 .container { width: 100%; padding: 0 2rem; margin: 0 auto; max-width: 1214px; }
 
+.app { overflow: hidden; }
+
 .main { margin-bottom: 1rem; }
 
 .main__page { margin-top: 5rem; margin-bottom: 5rem; }
@@ -530,10 +532,10 @@ u.voting-optionsl li:nth-of-type(3) { animation-delay: 1s; }
 
 /* end 844 */
 /* start 768 */
-@media (max-width: 768px) { html { font-size: 14px; } h2 { font-size: 2.3rem; } .hero__title { font-size: 2.8rem; } .hero__container { align-items: center; flex-direction: column; text-align: center; } .hero__title { max-width: 100%; } .hero__copy { margin-bottom: 20px; } .what-can__box { display: block; } .what-can__item { margin-bottom: 1.5rem; } .search-form__group { display: block; } .search-form__left-div { width: 100%; padding: 0; margin-bottom: 1.5rem; } .search-form__left-div::after { right: 1.5rem; } .search-form__right-div { width: 100%; } .home-entry { margin-bottom: 2.5rem; } .current-entries-main { grid-template-columns: repeat(2, 1fr); } .entry-container { display: block; } .other-current-entries { grid-template-columns: repeat(6, 1fr); } }
+@media (max-width: 768px) { html { font-size: 14px; } h2 { font-size: 2.3rem; } .current-entries { grid-template-columns: repeat(2, 1fr); } .hero__title { font-size: 2.8rem; } .hero__container { align-items: center; flex-direction: column; text-align: center; } .hero__title { max-width: 100%; } .hero__copy { margin-bottom: 20px; } .what-can__box { display: block; } .what-can__item { margin-bottom: 1.5rem; } .search-form__group { display: block; } .search-form__left-div { width: 100%; padding: 0; margin-bottom: 1.5rem; } .search-form__left-div::after { right: 1.5rem; } .search-form__right-div { width: 100%; } .home-entry { margin-bottom: 2.5rem; } .current-entries-main { grid-template-columns: repeat(2, 1fr); } .entry-container { display: block; } .other-current-entries { grid-template-columns: repeat(6, 1fr); } }
 
 /* end 768 */
-@media (max-width: 640px) { .winners__row { grid-template-columns: 1fr; } }
+@media (max-width: 640px) { .winners__row { grid-template-columns: 1fr; } .current-entries { grid-template-columns: 1fr; } }
 
 /* start 575 */
 @media (max-width: 575px) { .header__site-name { margin-left: 1rem; } .other-current-entries { grid-template-columns: repeat(4, 1fr); } .banner__title { font-size: 2.2rem; } .banner__text { font-size: 1.2rem; } .footer__bottom { display: block; padding-bottom: 2rem; } .footer__bottom div { margin-top: 0.8rem; } .footer__title { font-size: 1.2em; } .footer__contact, .footer-links, .footer__title { text-align: left; } }

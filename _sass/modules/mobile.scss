@@ -125,6 +125,10 @@
     font-size: 2.3rem;
   }
 
+  .current-entries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .hero__title {
     font-size: 2.8rem;
   }
@@ -191,6 +195,10 @@
 /* end 768 */
 @media (max-width: 640px) {
   .winners__row {
+    grid-template-columns: 1fr;
+  }
+
+  .current-entries {
     grid-template-columns: 1fr;
   }
 }

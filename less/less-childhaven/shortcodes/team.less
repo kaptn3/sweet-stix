@@ -1,0 +1,18 @@
+/*
+ * Shortcode: team.less
+ * -----------------------------------------------
+*/
+.team-members {
+    position: relative;
+    &::after {
+      bottom: 0;
+      content: "";
+      height: 1px;
+      position: absolute;
+      transition: all 200ms ease 0s;
+      width: 100%;
+    }
+    &:hover::after {
+        height: 4px;
+    }
+}

@@ -1,0 +1,290 @@
+{
+	"files": {
+		"style-main.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"less-childhaven/mixins.less",
+				"style-main.less",
+				"less-childhaven/nav.less",
+				"less-bootstrap/mixins.less",
+				"less-childhaven/overlay.less",
+				"less-bootstrap/mixins/background-variant.less",
+				"less-childhaven/practice-area.less",
+				"less-bootstrap/mixins/buttons.less",
+				"less-childhaven/services.less",
+				"less-bootstrap/mixins/clearfix.less",
+				"less-childhaven/shop.less",
+				"less-bootstrap/mixins/gradients.less",
+				"less-childhaven/shortcodes.less",
+				"less-bootstrap/mixins/grid.less",
+				"less-childhaven/shortcodes/alerts.less",
+				"less-bootstrap/mixins/image.less",
+				"less-childhaven/shortcodes/blockquote.less",
+				"less-bootstrap/mixins/list-group.less",
+				"less-childhaven/shortcodes/buttons.less",
+				"less-bootstrap/mixins/nav-vertical-align.less",
+				"less-childhaven/shortcodes/clients.less",
+				"less-bootstrap/mixins/pagination.less",
+				"less-childhaven/shortcodes/countdown-timer.less",
+				"less-bootstrap/mixins/progress-bar.less",
+				"less-childhaven/shortcodes/countdown.less",
+				"less-bootstrap/mixins/reset-text.less",
+				"less-childhaven/shortcodes/dividers.less",
+				"less-bootstrap/mixins/responsive-visibility.less",
+				"less-childhaven/shortcodes/facebook-disqus-comments.less",
+				"less-bootstrap/mixins/tab-focus.less",
+				"less-childhaven/shortcodes/faqs.less",
+				"less-bootstrap/mixins/text-emphasis.less",
+				"less-childhaven/shortcodes/flex-slider.less",
+				"less-bootstrap/mixins/vendor-prefixes.less",
+				"less-childhaven/shortcodes/flip-box.less",
+				"less-childhaven/about.less",
+				"less-childhaven/shortcodes/funfacts.less",
+				"less-childhaven/box-hover-effect.less",
+				"less-childhaven/shortcodes/home-boxes.less",
+				"less-childhaven/common.less",
+				"less-childhaven/shortcodes/icon-box.less",
+				"less-childhaven/course.less",
+				"less-childhaven/shortcodes/infinitescroll.less",
+				"less-childhaven/extra.less",
+				"less-childhaven/shortcodes/instagram.less",
+				"less-childhaven/form.less",
+				"less-childhaven/shortcodes/lightbox.less",
+				"less-childhaven/header.less",
+				"less-childhaven/shortcodes/map.less",
+				"less-childhaven/inner-header-title.less",
+				"less-childhaven/shortcodes/pegination.less",
+				"less-childhaven/menu-full-page.less",
+				"less-childhaven/shortcodes/piechart.less",
+				"less-bootstrap/mixins/border-radius.less",
+				"less-childhaven/shortcodes/pricing.less",
+				"less-bootstrap/mixins/forms.less",
+				"less-childhaven/shortcodes/process-steps.less",
+				"less-bootstrap/mixins/hide-text.less",
+				"less-childhaven/shortcodes/progress-bar.less",
+				"less-bootstrap/mixins/nav-divider.less",
+				"less-childhaven/shortcodes/promo.less",
+				"less-bootstrap/mixins/panels.less",
+				"less-childhaven/shortcodes/section-title.less",
+				"less-bootstrap/mixins/resize.less",
+				"less-childhaven/shortcodes/separators.less",
+				"less-bootstrap/mixins/table-row.less",
+				"less-childhaven/shortcodes/styled-icons.less",
+				"less-bootstrap/variables.less",
+				"less-childhaven/shortcodes/tabs.less",
+				"less-childhaven/boxed-layout.less",
+				"less-childhaven/shortcodes/team.less",
+				"less-childhaven/event.less",
+				"less-childhaven/shortcodes/testimonials.less",
+				"less-childhaven/gallery-isotope.less",
+				"less-childhaven/shortcodes/toggles-accordions.less",
+				"less-childhaven/job.less",
+				"less-childhaven/shortcodes/vertical-timeline.less",
+				"less-bootstrap/mixins/center-block.less",
+				"less-childhaven/shortcodes/working-process.less",
+				"less-bootstrap/mixins/labels.less",
+				"less-childhaven/side-push-panel.less",
+				"less-bootstrap/mixins/reset-filter.less",
+				"less-childhaven/sliders.less",
+				"less-bootstrap/mixins/text-overflow.less",
+				"less-childhaven/table-of-content.less",
+				"less-childhaven/contact.less",
+				"less-childhaven/topbar.less",
+				"less-childhaven/home.less",
+				"less-childhaven/typography.less",
+				"less-bootstrap/mixins/grid-framework.less",
+				"less-bootstrap/mixins/size.less",
+				"less-childhaven/widgets.less",
+				"less-childhaven/volunteer.less",
+				"less-childhaven/vertical-nav.less",
+				"less-childhaven/variables.less",
+				"less-childhaven/blog.less",
+				"less-bootstrap/mixins/opacity.less",
+				"less-bootstrap/mixins/alerts.less",
+				"less-childhaven/footer.less"
+			]
+		},
+		"style-main-dark.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-dark.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"less-ngopress/variables.less",
+				"style-main-dark.less"
+			]
+		},
+		"style-main-rtl-extra.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style-main-rtl-extra.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"style-main-rtl-extra.less"
+			]
+		},
+		"less-theme-color/theme-skin-blue.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-blue.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins/opacity.less",
+				"theme-skin-color.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-bountypress/variables.less",
+				"../less-bootstrap/variables.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/nav-divider.less"
+			]
+		},
+		"less-theme-color/theme-skin-colorset.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../css/colors/theme-skin-colorset.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": false,
+						"sourcemap": false
+					}
+				}
+			],
+			"sources": [
+				"../less-bootstrap/mixins.less",
+				"../less-bootstrap/mixins/alerts.less",
+				"../less-bootstrap/mixins/background-variant.less",
+				"../less-bootstrap/mixins/border-radius.less",
+				"../less-bootstrap/mixins/buttons.less",
+				"../less-bootstrap/mixins/center-block.less",
+				"../less-bootstrap/mixins/clearfix.less",
+				"../less-bootstrap/mixins/forms.less",
+				"../less-bootstrap/mixins/gradients.less",
+				"../less-bootstrap/mixins/grid-framework.less",
+				"../less-bootstrap/mixins/grid.less",
+				"../less-bootstrap/mixins/hide-text.less",
+				"../less-bootstrap/mixins/image.less",
+				"../less-bootstrap/mixins/labels.less",
+				"../less-bootstrap/mixins/list-group.less",
+				"../less-bootstrap/mixins/nav-divider.less",
+				"../less-bootstrap/mixins/nav-vertical-align.less",
+				"../less-bootstrap/mixins/opacity.less",
+				"../less-bootstrap/mixins/pagination.less",
+				"../less-bootstrap/mixins/panels.less",
+				"../less-bootstrap/mixins/progress-bar.less",
+				"../less-bootstrap/mixins/reset-filter.less",
+				"../less-bootstrap/mixins/reset-text.less",
+				"../less-bootstrap/mixins/resize.less",
+				"../less-bootstrap/mixins/responsive-visibility.less",
+				"../less-bootstrap/mixins/size.less",
+				"../less-bootstrap/mixins/tab-focus.less",
+				"../less-bootstrap/mixins/table-row.less",
+				"../less-bootstrap/mixins/text-emphasis.less",
+				"../less-bootstrap/mixins/text-overflow.less",
+				"../less-bootstrap/mixins/vendor-prefixes.less",
+				"../less-bootstrap/variables.less",
+				"../less-childhaven/variables.less",
+				"theme-skin-color.less"
+			]
+		},
+		"utility-classes.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/utility-classes.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": [
+				"less-childhaven/variables.less",
+				"utility-classes.less"
+			]
+		}
+	}
+}

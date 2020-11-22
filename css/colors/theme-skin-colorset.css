@@ -310,19 +310,19 @@ ul.list.theme-color-red.check li:before,
   color: #1DABB8;
 }
 .star-rating span::before {
-  color: #88186E !important;
+  color: #1DABB8 !important;
 }
 /* menuzord */
 .menuzord .menuzord-menu > li.active > a,
 .menuzord .menuzord-menu > li:hover > a,
 .menuzord .menuzord-menu ul.dropdown li:hover > a {
-  background: #88186E;
+  background: #1DABB8;
   color: #fff;
 }
 .menuzord .menuzord-menu > li.active > a i,
 .menuzord .menuzord-menu > li:hover > a i,
 .menuzord .menuzord-menu ul.dropdown li:hover > a i {
-  color: #88186E;
+  color: #1DABB8;
 }
 .menuzord .menuzord-menu > li.active > a i,
 .menuzord .menuzord-menu > li:hover > a i,

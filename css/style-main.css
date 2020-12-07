@@ -6414,4 +6414,9 @@ blockquote p {
   border-radius: 12px;
   overflow: hidden;
 }
+.section-form {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style-main.css.map */

@@ -50,7 +50,7 @@ This file contains the common styles of this theme.
 		* job.less
 		* shop.less
 		* blog.less
-		* shortcodes.less 
+		* shortcodes.less
 			* alerts.less
 			* blockquote.less
 			* buttons.less
@@ -832,8 +832,8 @@ section > .container-fluid {
 .cloud-img {
   position: relative;
 }
-/*  
- * extra.less 
+/*
+ * extra.less
  * -----------------------------------------------
 */
 /* -------- Heading Style ---------- */
@@ -3625,7 +3625,7 @@ table.no-border td {
   padding: 5px 15px;
 }
 /*
- * Blog 
+ * Blog
  * -----------------------------------------------
 */
 .post .entry-header {
@@ -4478,8 +4478,8 @@ blockquote p {
 .funfact.style-1:hover .funfact-title {
   color: #333333;
 }
-/*  
- * home-boxes.less 
+/*
+ * home-boxes.less
  * -----------------------------------------------
 */
 .home-boxes .each-box {
@@ -6399,4 +6399,19 @@ blockquote p {
   color: #333333;
 }
 
+.gallery-row .gallery__item {
+  padding-bottom: 30px;
+}
+
+.gallery-block__vote {
+  padding: 5px 10px;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.gallery-block__btn {
+  border-radius: 12px;
+  overflow: hidden;
+}
 /*# sourceMappingURL=style-main.css.map */
